@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7916234491116830375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7916234491116830372}
+  - component: {fileID: 7916234491116830373}
+  m_Layer: 0
+  m_Name: YellowSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7916234491116830372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7916234491116830375}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0.9, y: 0, z: 50}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &7916234491116830373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7916234491116830375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54a77029066ac6241ada3a6820fdc2a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opponentSpawner: {fileID: 0}
+  money: 100
+  characterPrefab:
+  - {fileID: 705605241021957816, guid: 3b15304108ca6bc4aac7b7cb98104341, type: 3}
+  - {fileID: 3164662827940511807, guid: 2be2838fbb5bb9e469a262c548d919c1, type: 3}
+  - {fileID: 1535044063921808027, guid: c0daf1c788ba9c14e99aaca0810f78e6, type: 3}
+  - {fileID: 1321936570129320827, guid: ed7a5ba241f8d0b44b343313c300aff0, type: 3}
+  - {fileID: 208586668066640390, guid: 7f90f173994aee14fa393731aefe6632, type: 3}
+  - {fileID: 8805004051478912843, guid: b31770c50b704b641b84cb1c47264f24, type: 3}
+  cooldownTime:
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  characterPrice: 0a0000000a00000014000000140000001e0000001e000000
+  spawnPosition: {x: 0.9, y: 0, z: 50}
+  randomSpawnOffset: 10
+  baseObject: {fileID: 0}
+  respawnTime: []
